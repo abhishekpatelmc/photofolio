@@ -2,7 +2,7 @@
 
 This is a Spring Boot project that uploads images to s3 bucket and then displays them on a web page.
 
-Sub Modules Frontend : https://github.com/abhishekpatelmc/photofolio-frontend.git
+* Sub Modules Frontend : https://github.com/abhishekpatelmc/photofolio-frontend.git
 
 ### Prerequisites
 
@@ -19,7 +19,7 @@ git clone https://github.com/abhishekpatelmc/photofolio.git
 * Create a s3 bucket
 * Create a IAM user with access to the s3 bucket
 * Create a file called application.properties in src/main/resources and add the following properties
-```
+```properties
 amazonProperties.accessKey=ACCESS_KEY
 amazonProperties.secretKey=SECRET_ACCESS_KEY
 amazonProperties.bucketName=BUCKET_NAME
@@ -28,16 +28,14 @@ amazonProperties.region=REGION
 
 * Run the following command to build the project
 
-```
+```bash
 mvn clean install
 ```
-
 * Run the following command to start the app
 
-```
+```bash
 mvn spring-boot:run
 ```
-
 * Open a browser and go to http://localhost:8080
 
 ## Running Frontend
@@ -56,7 +54,6 @@ npm install
 ```bash
 npm run dev
 ```
-
 * Open a browser and go to http://localhost:3000
 
 
