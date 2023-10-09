@@ -56,6 +56,19 @@ npm run dev
 ```
 * Open a browser and go to http://localhost:3000
 
+## Built With Docker
+
+* Run the following command to build the docker image
+```bash
+docker build -t photofolio .
+```
+
+* Run the following command to run the docker image
+```bash
+docker run -p 8080:8080 photofolio
+```
+
+
 
 
  
