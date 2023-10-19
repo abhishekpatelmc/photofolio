@@ -1,4 +1,4 @@
-# photofolio
+# Photofolio
 
 This is a Spring Boot project that uploads images to s3 bucket and then displays them on a web page.
 
