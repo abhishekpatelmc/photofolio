@@ -4,6 +4,9 @@ This is a Spring Boot project that uploads images to s3 bucket and then displays
 
 * Sub Modules Frontend : https://github.com/abhishekpatelmc/photofolio-frontend.git
 
+## Demo
+<img src="./PhotoFolio-Demo.png" alt="alt text" title="PhotoFolio Demo" width="800"/>
+
 ### Prerequisites
 
 * Java 8
